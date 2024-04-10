@@ -1,6 +1,6 @@
 class Rettangolo extends Forma {
-    private double base;
-    private double altezza;
+    private final double base;
+    private final double altezza;
 
     public Rettangolo(double base, double altezza) {
         this.base = base;
